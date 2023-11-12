@@ -155,8 +155,8 @@ function Input() {
                     borderRadius: "3.75rem",
                     border: "3px solid #A4288A",
                     background: "rgba(87, 21, 75, 0.20)",
-                    width: {xs:"100%", md:"25%"},
-                    height: "3.75rem",
+                    width: {xs:"100%", md:"30%"},
+                    height: "7rem",
                     mb: 2,
                     "&:hover": {
                       border: "0px",
@@ -177,7 +177,7 @@ function Input() {
                       borderRadius: "3.75rem",
                       background:
                         "linear-gradient(270deg, #A4288A 59.9%, #68079B 100%)",
-                        width: {xs:"100%", md:"25%"},
+                        width: {xs:"100%", md:"30%"},
                       height: "3.75rem",
                     }}
                   >
@@ -196,7 +196,7 @@ function Input() {
               flexDirection: {xs:"column", md:"row"},
               borderRadius: "3.75rem",
               background: "rgba(85, 21, 73, 0.20)",
-              height: "3.75rem",
+              height: "3.5rem",
               width: "100%",
             }}
           >
@@ -219,6 +219,10 @@ function Input() {
                   border: "transparent",
                   background:"transparent",
                 },
+                "& hover":{
+                  border : "transparent"
+                }
+                ,
                 display: "flex",
                 alignItems: "center",
               }}
@@ -231,6 +235,7 @@ function Input() {
               sx={{
                 borderRadius: "3.75rem",
                 height: "100%",
+                width:{xs:"40%"},
                 background:
                   "linear-gradient(270deg, #A4288A 59.9%, #68079B 100%)",
               }}
