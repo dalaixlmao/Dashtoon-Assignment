@@ -26,7 +26,7 @@ This project provides an intuitive web interface where users can input prompts, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/dalaixlmao/Dashtoon-Assignment.git
 
 # Navigate to the project directory
 cd your-repo
