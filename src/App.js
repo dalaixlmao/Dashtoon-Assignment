@@ -11,6 +11,7 @@ function App() {
         height: "100%",
         width: "100%",
         overflowX:"hidden",
+        overflowY:"scroll",
         background: "#05080F",
         minWidth:"100vw",
         minHeight:"100vh",

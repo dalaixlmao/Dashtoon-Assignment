@@ -156,7 +156,7 @@ function Input() {
                     border: "3px solid #A4288A",
                     background: "rgba(87, 21, 75, 0.20)",
                     width: {xs:"100%", md:"30%"},
-                    height: "7rem",
+                    height: "3.75rem",
                     mb: 2,
                     "&:hover": {
                       border: "0px",
@@ -197,7 +197,7 @@ function Input() {
               borderRadius: "3.75rem",
               background: "rgba(85, 21, 73, 0.20)",
               height: "3.5rem",
-              width: "100%",
+              width: "80%",
             }}
           >
             <TextField
@@ -225,6 +225,7 @@ function Input() {
                 ,
                 display: "flex",
                 alignItems: "center",
+                width:"90%",
               }}
             />
             <Button
@@ -235,11 +236,12 @@ function Input() {
               sx={{
                 borderRadius: "3.75rem",
                 height: "100%",
-                width:{xs:"40%"},
+                width:{xs:"40%", md:"10%"},
                 background:
                   "linear-gradient(270deg, #A4288A 59.9%, #68079B 100%)",
               }}
             >
+              
               <ArrowForwardIcon />
             </Button>
           </Box>
